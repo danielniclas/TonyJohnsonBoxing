@@ -1,0 +1,725 @@
+
+/* Typography
+================================= */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+h1 {
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+#jumbo-txt h1 {									/*  jumbotron main text */
+	color: #f5f5f5;
+	/*color: #ff0000;*/
+	font-weight: normal;
+    letter-spacing: 2px;
+	font-size: 2.5em;
+	text-shadow: 0 0 10px purple;
+    /*font-family: 'Black Ops One', cursive !important;*/
+
+}
+
+.jumbo-txt {									/*  jumbotron main text */
+    color: #f5f5f5;
+    /*color: #ff0000;*/
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 3em;
+    text-shadow: 0 0 10px purple;
+    margin: 0 20% 40px;
+    /*font-family: 'Black Ops One', cursive !important;*/
+}
+
+.slide-btn {
+
+    margin: 0 20% 40px;
+}
+
+#second {
+	display: inline-block;
+	background-color: transparent;				/* win loss div */
+	height: 40px;
+	border-radius: 5px;
+	padding: 5px 5px 0 5px;
+	margin-bottom: 10px;
+
+}
+
+
+h2, h3 {										/* h2 h3 text color */
+	font-size: 1.25em;
+	/*color: #5f5d60;*/
+	color: white;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+p {												/* p text color */
+	/*color: #b3aeb5;*/
+	/*color: #808080;*/
+	color: #f5f5f5;
+	line-height: 1.7;
+	font-size: 1.1em;
+	font-weight: 200;
+}
+
+.colorException {
+    color: white;
+}
+
+.blacktext {
+    color: black;
+}
+
+.shadowEffect {
+    text-shadow: 3px 3px 5px black;
+}
+
+
+.a-border {
+    border-color: blue;
+}
+
+
+
+strong {
+	color: #5f5d60;
+}
+
+.navbar {
+	min-height: 50px;
+}
+
+.navbar-text {							/* navbar text */
+	/*color: #ff0000 !important;*/
+	color: white !important;
+	font-size: 2em;
+	/*margin-right: 0;*/
+	/*margin-left: 9px;*/
+	/*margin-top: 10px;*/
+	/*margin-bottom: 10px;*/
+	margin: 10px 0 10px 9px;
+	text-shadow: 0 0 15px purple;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+
+
+.navbar-name:link  {
+
+    text-decoration: none !important;
+}
+
+.navbar-name:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
+
+.navbar-icon:link  {
+	color: white !important;
+	font-size: 1.8em;
+	margin: 10px 0 10px 9px;
+	text-shadow: none;
+	text-decoration: none !important;
+}
+
+.navbar-icon:visited {
+	color: white !important;
+	font-size: 1.8em;
+	margin: 10px 0 10px 9px;
+	text-shadow: none;
+	text-decoration: none !important;
+}
+
+.nodecoration:hover {
+    color: deepskyblue !important;
+    text-shadow: none;
+    text-decoration: none !important;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+
+.navbar-icon:hover {
+	color: deepskyblue !important;
+	font-size: 1.8em;
+	margin: 10px 0 10px 9px;
+	text-shadow: none;
+	text-decoration: none !important;
+}
+
+.navbar-icon:active {
+	color: deepskyblue !important;
+	font-size: 1.8em;
+	margin: 10px 0 10px 9px;
+	text-shadow: none;
+	text-decoration: none !important;
+}
+
+
+.lead {
+	/*color: #d5c1f2;*/					/* jumbotron button  and additional text */
+	color: #f5f5f5;
+	/*color: white;*/
+	font-weight: normal;
+    letter-spacing: 2px;
+	margin-bottom: 70px;
+	text-shadow: 0 0 15px purple;
+    /*font-family: 'Black Ops One', cursive !important;*/
+}
+.lead:nth-of-type(2) {
+	font-size: initial;
+	margin-bottom: 20px;
+}
+.main-footer {
+	font-size: .95em;
+}
+.link-list {
+	list-style-type: none;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+}
+.copyright {
+	font-size: .9em;
+}
+
+/* Links
+================================= */
+
+.main-footer a {
+	color: #a6afb2;
+	font-weight: bold;
+}
+
+.link-list .heading {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.nav-links {
+
+	margin-top: 8px;
+}
+
+.box-rec-button {
+
+    margin-top: 15px;
+	border-color: black;
+    color: black;
+
+}
+
+.box-rec-button:hover {
+
+    box-shadow: 0 0 15px 1px purple;
+    border-color: grey;
+    color: grey;
+
+}
+
+/* Layout
+================================= */
+
+
+hr {
+	margin-bottom: 58px;
+}
+.ft {
+	margin-bottom: 50px !important;
+	padding-left: 0;
+}
+.ft-copy {
+	padding-top: 32px;
+}
+.ft-copy p,
+.copy-offset { 
+	width: 88%;
+}
+.panel {
+	/*background-image: url('../img/form-panel-bg.png');*/
+	background-repeat: repeat-x;
+	border-bottom: solid 1px #eee;
+	padding: 22px 10px;
+	margin: -5px 0 20px 0;
+    opacity: 0.9;
+}
+
+
+.panel-1 {
+    background-image: url('../img/TV1a.jpg');
+    background-size: cover;
+    /*background-color: #f7f7f7;*/
+    border-radius: 5px;
+    border-bottom: solid 1px #808080;
+    border-top: solid 1px #808080;
+    padding: 2px 10px;
+    margin: 0 0 28px 0;
+    /*box-shadow: 0 5px 5px 4px darkviolet;*/
+    opacity: 0.8;
+}
+
+.panel-1 img {
+
+    border-radius: 5px;
+}
+
+.marq{
+
+    font-family: 'Black Ops One', cursive !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+
+}
+
+/*.navbar .blackOpsFont {*/
+    /*font-family: 'Black Ops One', cursive !important;*/
+    /*font-size: 2.5em;*/
+    /*font-weight: normal;*/
+/*}*/
+
+
+.marq h1 {
+    font-family: 'Black Ops One', cursive !important;
+    color: white;
+
+}
+
+
+.main-footer {
+	/*margin: 100px 0 80px 0;*/
+	margin: 50px 0 80px 0;
+}
+
+#footer-bar {
+
+	margin-bottom: 0;
+}
+
+#backgroundStuff {
+    
+    background: url("../img/belt.jpg") no-repeat 75% 5%;
+    /*background-size: 190%;*/
+
+
+    background-size: cover;
+}
+
+
+/* Form
+================================= */
+
+.phone-txt {
+	padding: 24px 12px;
+	width: 90%;
+}
+.btn-submit {
+	color: inherit;
+	font-size: 1.6em;
+	background: transparent;
+	position: absolute;
+	right: 55px;
+	bottom: 3px;
+}
+
+
+/* Buttons
+================================= */
+
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: #957bba;
+	border-color: #fff;
+}
+.btn:active {
+	box-shadow: none;
+}
+.panel .btn-default:hover {
+	background-color: #ccc;
+	color: #f7f7f7;
+	border-color: #ccc;
+}
+.btn-success {
+	box-shadow: 0 3px 0 #23812f;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	font-size: 1.5em;
+	width: 330px;
+	padding: 15px 0;
+}
+
+/* Jumbotron
+================================= */
+
+
+
+
+/* Bottom Image
+================================= */
+
+.bottom-image {
+
+	max-height: 250px;
+
+	max-width: 340px;
+	padding-left: 0;
+	border-radius: 5px;
+	margin: 0 0;
+
+
+}
+
+
+/* Logos & Icons
+================================= */
+
+
+.ft-ten {
+    height: 250px;
+    position: relative;
+
+    background: url('../img/10b.jpg') no-repeat;
+    background-size: cover;
+    border: solid 2px #d3d3d3;
+
+}
+
+
+
+.ft-one {
+	height: 250px;
+	position: relative;
+    background: url('../img/3c.jpg') no-repeat;
+    background-size: cover;
+    border: solid 2px #d3d3d3;
+
+}
+
+.ft-two {
+	/*width: 100%;*/
+	height: 250px;
+	position: relative;
+	/*background: url('../img/4.png') no-repeat -20px 0;*/
+	background: url('../img/4.png') no-repeat;
+
+    background-size: cover;
+
+	max-height: 100%;
+	max-width: 100%;
+    border: solid 2px #d3d3d3;
+
+}
+
+.ft-three {
+	/*width: 100%;*/
+	height: 250px;
+	position: relative;
+	/*background: url('../img/5.jpg') no-repeat 2px -70px;*/
+	background: url('../img/5c.jpg') no-repeat;
+	/*background: #8c73b0 url('../img/3.jpg') no-repeat 270px -180px;*/
+	/*background-size: 140%;*/
+
+    background-size: cover;
+
+	max-height: 100%;
+	max-width: 100%;
+    border: solid 2px #d3d3d3;
+
+
+}
+
+.ft-four {
+	/*width: 100%;*/
+	height: 250px;
+	position: relative;
+	background: url('../img/6c.jpg') no-repeat;
+
+    background-size: cover;
+
+	max-height: 100%;
+	max-width: 100%;
+    border: solid 2px #d3d3d3;
+
+}
+
+
+.ft-five {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	background: url('../img/tony-bg.jpg') no-repeat 0 -100px;
+
+    background-size: cover;
+
+	max-height: 100%;
+	max-width: 100%;
+
+}
+
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	/*speak: none;*/
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	margin-right: 8px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+/* Media Queries
+================================= */
+
+@media (max-width: 991px) {
+
+	.navbar {
+		min-height: 60px;
+	}
+
+	.ft-copy {
+		padding-top: 12px;
+	}
+	.ft-copy p {
+		width: auto;
+	}
+	.device {
+		margin-top: 28px;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+
+    .navbar {
+		/*min-height: 60px;*/
+		max-height: 60px;
+	}
+
+    .navbar-text {
+        font-size: 1.5em !important;
+    }
+
+
+	.main-logo {
+		width: 82px;
+		margin-top: 20px;
+	}
+	.jumbotron {
+		/*padding-top: 80px;*/
+		/*margin-bottom: 32px;*/
+		margin-top: 68px;              /* jumbotron top margin */
+	}
+	.lead {
+		margin-bottom: 40px;
+	}
+	.ft {
+		margin-bottom: 16px;
+		/*margin-bottom: 100px;*/
+	}
+	hr {
+		margin-bottom: 40px;
+	}
+
+
+	.btn-success {
+		width: 85%;
+		font-size: initial;
+	}
+	.callout, 
+	.link-list {
+		margin-top: 32px;
+	}
+	.main-footer {
+		/*margin-top: 64px;*/
+		margin-top: 0;
+	}
+	.link-list {
+		float: left;
+		margin-right: 32px;
+	}
+
+
+
+	.ft-five {
+		width: 100%;
+		height: 250px;
+		position: relative;
+		background: url('../img/tony-bg.jpg') no-repeat 0 -100px;
+
+		/*background: #8c73b0 url('../img/3.jpg') no-repeat 270px -180px;*/
+
+        background-size: 100%;
+
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+
+
+    #backgroundStuff {
+
+        background: url("../img/belt.jpg") no-repeat 75% 60%;
+
+        background-size: cover;
+
+    }
+}
+
+@media (max-width: 555px) {
+
+    .marqu {
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width: 490px) {
+
+	.ft-five {
+		width: 100%;
+		height: 150px;
+		position: relative;
+		background: url('../img/tony-bg.jpg') no-repeat 0 -50px;
+
+		background-size: 100%;
+
+		max-height: 100%;
+		max-width: 100%;
+
+	}
+
+
+.imgheight
+    {
+        max-height: 250px !important;
+    }
+
+
+.carousel-indicators  {
+
+    display: none;
+}
+
+    .carousel-text {
+        font-size: 1.25em;
+    }
+
+
+    .carousel-quote {
+        font-size: 1em;
+    }
+
+    .carousel-caption {
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 80% !important;
+
+        left: 5% !important;
+        top: 5% !important;
+
+    }
+
+}
+
+
+@media (max-width: 390px) {
+
+.navbar-text {
+	font-weight: bold;
+	color: #ffffff !important;
+	font-size: 1.5em;
+	margin-right: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+	.jumbotron {
+
+		margin-top: 59px;              /* jumbotron top margin */
+	}
+
+
+	.bottom-image {
+
+        max-height: 210px;
+        max-width: 300px;
+        padding-left: 0;
+        border-radius: 5px;
+        margin: 0 0;
+    }
+
+
+
+}
+
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*Bootstrap Carousel*/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-caption p,
+.carousel-caption h1,
+.carousel-caption a,
+.carousel-caption h2
+{
+
+    text-align: left;
+    margin-left: 0px;
+}
+
+.carousel-caption {
+
+    left: 6%;
+    top: 50px;
+}
+
+.imgheight {
+
+    max-height: 720px;
+}
+
