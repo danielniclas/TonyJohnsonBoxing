@@ -409,6 +409,15 @@ hr {
 
 }
 
+.ft-eleven {
+	height: 250px;
+	position: relative;
+
+	background: url('../img/ortega.png') no-repeat;
+	background-size: cover;
+	border: solid 2px #d3d3d3;
+
+}
 
 
 .ft-one {
